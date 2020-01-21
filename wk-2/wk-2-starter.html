@@ -11,7 +11,7 @@
 <body>
   
 <!-- 🔥🔥🔥🔥🔥🔥 start the lecture here javascript 🔥🔥🔥🔥🔥🔥 -->
-<script>
+<!-- <script>
 //examples in slides
 // #1
 let myBoolean = true;
@@ -20,17 +20,26 @@ let mySecondNumber = 5.0;
 let myString = "peanuts and m&m's";
 
 // #2
-
+let a = /5;
+x = 10;
+alert (c = a + x);
 
 
 // #3
-
+// let a = 5;
+// a = 7;
 
 
 // #4
+var b = 5; // using var is not OK
+b = 10;
+
+let myString2 = "gumy bears"
 
 
-</script>
+
+</script> -->
+
 <!-- 🔥🔥🔥🔥🔥🔥 start part 2 - lecture here javascript 🔥🔥🔥🔥🔥🔥 -->
 <script>
 
@@ -42,18 +51,30 @@ let myString = "peanuts and m&m's";
     const f = 'is liz';
 
     console.group('Addition');
-
+    console.log(a + b);
+    console.log(a + d);
+    console.log(e + " " + f);
+    console.log(e += " is the batman ");
     console.groupEnd();
 
     console.group('Multiplication');
-
+    console.log(a * b);
+    console.log(b * b + a);
     console.groupEnd();
 
     a++;
     b--;
-    --b;
+    --c;
     c += a;
     console.group('Incrementing');
+    console.log(a); //11
+    console.log(b); //2
+    console.log(c); //11
+    console.log(a); //11
+
+
+
+
 
     console.groupEnd();  
 </script>
