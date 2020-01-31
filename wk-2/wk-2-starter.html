@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>CSY1018 JavaScript</title>
+    <meta charset="UTF-8">
+    <title>CSY1018 JavaScript</title>
 
-<!-- add materialize and css -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-<link rel="stylesheet" href="style.css">
+    <!-- add materialize and css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
-<!-- 🔥🔥🔥🔥🔥🔥 start the lecture here javascript 🔥🔥🔥🔥🔥🔥 -->
+<!-- start the lecture here javascript -->
 <script>
 //examples in slides
 // #1
@@ -20,9 +20,9 @@ let mySecondNumber = 5.0;
 let myString = "peanuts and m&m's";
 
 // #2
-let a = 5;
-x = 10;
-alert (c = a + x);
+let x = 5;
+y = 10;
+// alert (c = x + y);
 
 
 // #3
@@ -34,27 +34,43 @@ alert (c = a + x);
 // var b = 5; // using var is not OK
 // b = 10;
 
-let myString2 = "gumy bears"
+// Tetsing the let and var
+let zzz = 2;
+
+if (zzz==1) {
+    console.group("Cosmin true..........");
+    let myString2 = "is true"
+    // var myString2 = "is true"
+
+    console.log(myString2);
+    console.groupEnd();
+}else{
+    console.group("false");
+    let myString2 = "is not true"
+    console.log(myString2);
+    console.groupEnd();
+}
 
 
 
+console.log(myString2);
 </script>
 
 <!-- 🔥🔥🔥🔥🔥🔥 start part 2 - lecture here javascript 🔥🔥🔥🔥🔥🔥 -->
 <script>
 
-    let a   = 10;
+    let a   = 10.12;
     let b   = 3;
     let c   = 15;
     const d = '5';
-    let e   = 'my name';
-    const f = 'is liz';
+    let e   = 'My name';
+    const f = 'is Cosmin';
 
     console.group('Addition');
     console.log(a + b);
     console.log(a + d);
     console.log(e + " " + f);
-    console.log(e += " is the batman ");
+    console.log(e += " Slim Shaddy ");
     console.groupEnd();
 
     console.group('Multiplication');

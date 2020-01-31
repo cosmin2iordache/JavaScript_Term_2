@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- Start part 1 - lecture wk 3 javascript -->
+<script> 
+console.group('Operands + Concatenation');
+        let y = 1;
+        y = -y;
+        console.log(y);
+
+
+// converting number to strings
+        let apple = "10";
+        let oranges = "5";
+
+        console.log(+apple + +oranges); // 15
+
+        sum = apple+oranges;
+        console.log("Sum = \"apple+oranges\" is " + sum);               //105
+
+        console.log("Substraction is    " + (apple-oranges));   //5
+        console.log("Multiplication is  " + (apple*oranges));   //50
+
+        console.log(2+2+"2");
+        console.log(2+'2'+2)
+console.groupEnd();
+        
+                
+console.group('Assignment');
+// Assignment " = "
+        let x = 2*2+1;
+        console.log(x);
+console.groupEnd();
+
+// Loops
+console.group('Loops');
+        let i = 0;
+        while (i < 5) { //shows 0, then 1, then 2
+        console.log ( i );
+        i++;    
+        } 
+        
+console.groupEnd(); 
+</script>
+</body>
+</html>

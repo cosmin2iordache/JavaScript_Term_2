@@ -1,0 +1,13 @@
+button {
+    font-size: 20px;
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+
+/* review how to center with flex below */
+.centre {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
