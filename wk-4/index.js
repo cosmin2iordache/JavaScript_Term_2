@@ -10,6 +10,8 @@ var a = "outside IF";
 // var a = 2;
 // var a = 3;
 console.log("The value of VAR \"a\" is: ", a);
+
+console.log(`this is a : ${a + a}`);
 console.groupEnd();
 
 
