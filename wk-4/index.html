@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+
+
+<script>
+
+console.group("using VAR a");      
+if (true) {
+      var a = "inside IF";
+      console.log("The value of VAR \"a\" is: " + a);
+    }
+console.log("The value of VAR \"a\" is: " + a);
+var a = "outside IF";
+// var a = 2;
+// var a = 3;
+console.log("The value of VAR \"a\" is: " + a);
+console.groupEnd();
+
+
+console.group("using LET b")
+let b = "outside IF";
+// let b = "xxxxxxxxxxxxxxxxxxxxxx";
+
+if (true){
+      let b = "inside IF";
+      console.log("The value of LET \"b\" is: " + b);
+}
+console.log("The value of LET \"b\" is: " + b);
+console.groupEnd();
+
+
+console.group("using CONST c");
+const c = "one";
+// const c = "two";
+console.log("The value of CONST \"c\" is: " + c);
+console.groupEnd();
+</script>      
+</body>
+</html>
