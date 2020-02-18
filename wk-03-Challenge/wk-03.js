@@ -34,7 +34,7 @@ function onClick() {
 
 function display(){
 
-  console.log("asdaskdjaskldjaklsjd")
+  console.log("Hello...")
 }
 
 
