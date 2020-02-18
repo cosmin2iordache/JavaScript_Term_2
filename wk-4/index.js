@@ -1,4 +1,3 @@
-"use strict";
 console.group("using VAR a");      
 var a = 0;
 if (true) {
