@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+ 
+
+ <!--linking the bootstrao CDN-->  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!--linking the local CSS-->  
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- Specify in CSS-   font-family: 'Nunito', sans-serif;      -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+
+    <script defer src="main.js"></script>
+
 </head>
 <body>
-    
+
+
+<div class="hero"> 
+    <div class="container">
+            <h1 class="display-2 text-center">TodoList</h1>
+            <p class="lead text-center">Good morning, here are your Todos today</p>
+            <div class="row">
+                    <form id="form" class="col-lg-6 col-8 mx-auto">
+                        <div class="input-group">
+                            <input id="input" type="text" class="form-control" placeholder="Enter to do list item" value="">       
+                            <span>
+                                <button id="btn" type="button" class="btn btn-primary">Submit</button>
+                            </span>
+                        </div>
+                    </form>
+            </div> <!--end class:row -->
+    </div>
+</div>
 </body>
 </html>
